@@ -1,0 +1,32 @@
+  #toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #282c34;
+  }
+  
+
+  
+  #generateArray, #generateArrayX, #sort {
+    cursor: pointer;
+  }
+  
+  #algorithmSelect {
+    padding: 5px;
+    color: #282c34;
+    font-size: 16px;
+  }
+  
+  .algorithmButton, .currentAlgorithmButton {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .currentAlgorithmButton {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+  
